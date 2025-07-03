@@ -1,0 +1,25 @@
+{
+  "name": "weather-mcp",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [ "build" ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.3",
+    "zod": "^3.25.69"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^5.8.3"
+  }
+}
